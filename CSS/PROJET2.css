@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+
+
+
+}
+body{
+    height: 2000px;
+    text-align: center;
+    
+}
+ul {
+    background-color: black;
+    
+
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+ul li:hover {
+    background-color: red;
+
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+/*start hero section */
+.hero {
+    height: 500px;
+    background-image: url(../IMAGES/6.jpg);
+    background-position: center center;
+    text-align: center;
+    background-position: right;
+
+}
+.about_us {
+    margin-top:50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color:white;
+}
+.about_us h1 { 
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+
+}
+.all-box {
+    display: flex;
+}
+.box {
+    width: 30%;
+    background-color:khaki;
+    margin: auto;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box :hover{
+    box-shadow: 3px 3px 3px;
+}
+i {
+    background-color:white;
+    width: 60px;
+    height: 60px;
+    color:black;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.box h3 {
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+}
+.box p {
+
+}
+
+.content{
+    text-align: center ;
+    width: 80%;
+    background-color:white;
+    margin: auto;
+     margin-top: 50px;
+     text-decoration: solid;
+     font-size: large;
+     color: black;
+}
+
+.content h1 { 
+    margin-bottom: 30px;
+    color: red;
+    font-size: 35px;
+}
+.content p{
+    margin-bottom: 20px
+}
+
+.content img{
+    width: 200px;
+    margin-bottom: 10PX;
+
+}
+
+/* start content us */
+.contact-us {
+    margin-top: 100px;
+    margin: 100px;
+}
+.contact-us .contact-form {
+    width: 700px;
+    background-color: white;
+    margin: 100px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+}   
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-position: center;
+    text-align: center;
+    
+}
+.input-form input:focus {
+    border: 1px solid rosybrown;
+    outline: none;
+
+}
+
+.btn-send{
+    background-color: khaki;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    font: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.btn-send:hover{
+    background-color: thistle;
+}  
+
+ .footer {
+    height: 300px;
+    color: black;
+    text-align: center ;
+    background-color:rgb(232, 224, 155);  
+    margin: 10px;
+    text-decoration: solid;
+    
+
+
+   
+ }
+.public {
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 100px;
+
+}
+     
+
+.first p {
+    
+    
+}
+.first p{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+.first p:hover{
+    background-color: red;
+}
+.tout {
+    display: inline-block;
+
+
+}
+
+
